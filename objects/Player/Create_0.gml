@@ -1,0 +1,2 @@
+//Init
+moveSpeed = 12;
