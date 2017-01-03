@@ -7,8 +7,8 @@ for (var yy = 0; yy < ds_grid_height(world); yy++) {
 		var biomeId = world[# xx, yy];
 		var tile = tiles[| biomeId];
 	
-		var worldX = TILE_W * xx;
-		var worldY = TILE_H * (halfY - 0.5);
+		var worldX = x + (TILE_W * xx);
+		var worldY = y + (TILE_H * (halfY - 0.5));
 		var tileCol = (playerX == worldX && playerY == worldY) ? c_lime : c_white;
 		draw_sprite_ext(tile, 0, worldX, worldY, 1, 1, 0, tileCol, 1);
 	}

@@ -145,7 +145,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": false,
         "clearViewBackground": false,
-        "enableViews": true,
+        "enableViews": false,
         "inheritViewSettings": false
     },
     "views": [
@@ -160,7 +160,7 @@
             "inherit": false,
             "objId": "58f42000-9b47-4546-9ce3-238fcaf10d2b",
             "vborder": 540,
-            "visible": true,
+            "visible": false,
             "vspeed": -1,
             "wport": 1920,
             "wview": 1920,
