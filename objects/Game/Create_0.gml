@@ -2,7 +2,6 @@
 gamepad = noone;
 
 //Start
-window_set_fullscreen(true);
 randomize();
 
 //Start game

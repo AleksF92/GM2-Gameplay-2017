@@ -1,4 +1,5 @@
-///input(buttonStr)
+/// @description input
+/// @param buttonStr
 var buttonStr = argument[0];
 
 var result = false;
@@ -25,6 +26,10 @@ else {
 		}
 		case "Menu": {
 			result = keyboard_check_pressed(vk_escape);
+			break;
+		}
+		case "Restart": {
+			result = keyboard_check_pressed(ord("R"));
 			break;
 		}
 	}

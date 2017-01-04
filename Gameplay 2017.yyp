@@ -493,6 +493,25 @@
                 "resourcePath": "objects\\Biome\\Biome.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "718c8995-7a17-4353-9a17-39654c2d19e7",
+            "Value": {
+                "id": "d9ef433c-d087-4efa-8f7c-ab1f6a4499fd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_SandCrust\\spr_SandCrust.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [
