@@ -2,7 +2,7 @@
     "id": "066dab3d-6268-40ed-9978-cfc7dc77d62d",
     "modelName": "GMSprite",
     "mvc": "1.11",
-    "name": "spr_Grass",
+    "name": "spr_Tile_Grass",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -11,7 +11,7 @@
     "bbox_right": 511,
     "bbox_top": 0,
     "bboxmode": 0,
-    "colkind": 1,
+    "colkind": 3,
     "coltolerance": 0,
     "frames": [
         {

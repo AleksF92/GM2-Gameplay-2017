@@ -1,14 +1,16 @@
-//Find player grid position
+// Find player grid position
 if (instance_exists(Player)) {
 	//Calculate player tile
+	
 	playerX = (Player.x - x) div TILE_W;
 	playerY = (Player.y - y) div TILE_H;
 	
 	//Check if outside border
 	var w = ds_grid_width(world);
 	var h = ds_grid_height(world);
-	var dirX = (playerX >= w) - (playerX < 0);
-	var dirY = (playerY >= h) - (playerY < 0);
+	var offTiles = 2;
+	var dirX = (playerX >= w - (offTiles + 1)) - (playerX < offTiles);
+	var dirY = (playerY >= h - (offTiles + 2)) - (playerY < offTiles);
 	if (dirX != 0 || dirY != 0) {
 		//Prepare new grid
 		var worldW = w + (CHUNK * max(dirX, -dirX));
@@ -18,8 +20,8 @@ if (instance_exists(Player)) {
 		
 		//Move physical grid
 		if (dirX < 0 || dirY < 0) {
-			x += TILE_W * CHUNK * dirX;
-			y += TILE_H * CHUNK * dirY;
+			//x += TILE_W * CHUNK * dirX;
+			//y += TILE_H * CHUNK * dirY;
 		}
 		
 		//Copy old grid with offset
@@ -54,11 +56,14 @@ if (instance_exists(Player)) {
 					if (nearBiome[? "Size"] >= MAX_SIZE) {
 						//Create new biome
 						nearBiome = ds_map_create();
-						nearBiome[? "Type"] = choose(spr_Grass, spr_SandCrust);
+						nearBiome[? "Type"] = choose(Tile_Grass, Tile_Sand, Tile_Water);
 						nearBiome[? "Size"] = 0;
 					}
 				
 					//Create biome piece
+					var worldX = x + ((TILE_W / 2) * xx);
+					var worldY = y + ((TILE_H / 2) * (yy - 0.5));
+					instance_create_layer(worldX, worldY, "BiomeLayer", nearBiome[? "Type"]);
 					tempWorld[# xx, yy] = nearBiome;
 					nearBiome[? "Size"]++;
 				}

@@ -1,8 +1,8 @@
 {
     "id": "718c8995-7a17-4353-9a17-39654c2d19e7",
     "modelName": "GMSprite",
-    "mvc": "1.0",
-    "name": "spr_SandCrust",
+    "mvc": "1.11",
+    "name": "spr_Tile_SandCrust",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -11,7 +11,7 @@
     "bbox_right": 511,
     "bbox_top": 0,
     "bboxmode": 1,
-    "colkind": 1,
+    "colkind": 3,
     "coltolerance": 0,
     "frames": [
         {
