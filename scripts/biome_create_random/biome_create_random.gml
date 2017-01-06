@@ -4,5 +4,5 @@ if (chance(25)) { type = Tile_Sand; }
 else if (chance(25)) { type = Tile_Water; }
 
 //Create biome
-var biome = biome_create(type);
+var biome = biome_create_type(type);
 return biome;

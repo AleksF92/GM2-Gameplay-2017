@@ -1,7 +1,7 @@
 {
     "id": "0cd8f11f-05d4-485d-9eee-d8109f3fb365",
     "modelName": "GMSprite",
-    "mvc": "1.0",
+    "mvc": "1.11",
     "name": "spr_Tile_Water",
     "For3D": false,
     "HTile": false,
@@ -458,7 +458,7 @@
             "isLocked": false,
             "name": "Layer 3",
             "opacity": 36,
-            "visible": true
+            "visible": false
         },
         {
             "id": "3f9be0ae-dda8-4edc-8487-d7f29c368c9d",
@@ -468,7 +468,7 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "Layer 2",
-            "opacity": 53,
+            "opacity": 75,
             "visible": true
         },
         {
@@ -479,7 +479,7 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
-            "opacity": 100,
+            "opacity": 75,
             "visible": true
         }
     ],

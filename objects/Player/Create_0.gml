@@ -1,5 +1,5 @@
 //Init
-moveSpeed = 12;
+moveSpeed = 6;
 tile = noone;
 curTile = noone;
 canWalk = true;
@@ -21,3 +21,6 @@ view_camera[0] = camera_create_view(
 	room_height / 2
 );
 view_visible[0] = true;
+
+sanityMax = 100;
+sanity = sanityMax;

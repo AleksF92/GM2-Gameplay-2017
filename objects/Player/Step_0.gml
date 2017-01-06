@@ -39,4 +39,4 @@ if (dirX != 0 || dirY != 0) {
 //Animate movement
 image_speed = (dirX != 0 || dirY != 0);
 if (!image_speed) { image_index = 0; }
-
+depth = (-y / 128) - 1;
