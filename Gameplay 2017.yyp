@@ -816,6 +816,177 @@
                 "resourcePath": "sprites\\spr_UI_Frame\\spr_UI_Frame.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "79ea08da-5138-4c36-86d3-562372ef38ba",
+            "Value": {
+                "id": "40587016-dd1c-4751-b043-84155a1a535f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\Enemy\\Enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3ac9f97d-f555-4b32-9ac6-003aeb62e7e2",
+            "Value": {
+                "id": "420ce370-b8ea-45ed-aabb-75e3337b0a73",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_Bunny\\spr_Bunny.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8f155ece-4e30-4638-a375-71cf5ba26471",
+            "Value": {
+                "id": "871b286d-2881-4e46-b095-2427bf144536",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\Enemy_Bunny\\Enemy_Bunny.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1a58665f-8107-442e-9c1d-418ec9cee560",
+            "Value": {
+                "id": "0af26b7b-3cba-4717-a53a-c5a221483ccb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\get_depth\\get_depth.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "58dbc51f-b7eb-4855-acf2-d7fcd127a279",
+            "Value": {
+                "id": "a7e82eab-eecf-408f-a32c-71e9900c7adf",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\Player_Body\\Player_Body.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5a752267-a3f1-4a9e-9035-f952a28f1339",
+            "Value": {
+                "id": "f1adf1b0-03fc-4a91-b16b-7a1fa59797a1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_Player_Shift\\spr_Player_Shift.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6eedf0aa-e5cb-424b-a971-4e75ca8ca874",
+            "Value": {
+                "id": "403948c1-77d2-48fd-85fb-a4386c0ebc10",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_Player_Body\\spr_Player_Body.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "315af339-16e2-4929-a17a-5d1dbc3aaa7f",
+            "Value": {
+                "id": "463d98d8-7cb6-48ac-87d4-20e09183a784",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_Darkness\\spr_Darkness.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "763ef55a-430a-4432-99a2-27432bac0420",
+            "Value": {
+                "id": "f8ebb788-47a5-46f4-8f57-521462bc90a2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\GUI\\GUI.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
@@ -827,7 +998,8 @@
         "e1f59d80-014b-42f9-be41-7422b0831fcd",
         "97740951-3cc0-4ee2-b13c-1e32c26fd0b1",
         "a5b01dff-1f80-4ac6-926e-01276e924207",
-        "b969790f-6334-4fec-97e0-0346552568b9"
+        "b969790f-6334-4fec-97e0-0346552568b9",
+        "1a58665f-8107-442e-9c1d-418ec9cee560"
     ],
     "tutorial": ""
 }

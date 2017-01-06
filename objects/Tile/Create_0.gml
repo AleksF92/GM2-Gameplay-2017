@@ -1,3 +1,3 @@
 //Init
 inside = false;
-depth = -y / 128;
+depth = get_depth();

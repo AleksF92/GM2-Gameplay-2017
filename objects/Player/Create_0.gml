@@ -5,6 +5,8 @@ curTile = noone;
 canWalk = true;
 moveX = x;
 moveY = y + moveSpeed;
+dir = 1;
+swapOffset = 124;
 
 //Set up camera
 view_enabled = true;
@@ -24,3 +26,5 @@ view_visible[0] = true;
 
 sanityMax = 100;
 sanity = sanityMax;
+sanityRegen = 0.05;
+body = noone;

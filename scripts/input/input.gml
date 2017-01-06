@@ -32,6 +32,18 @@ else {
 			result = keyboard_check_pressed(ord("R"));
 			break;
 		}
+		case "Sanity Up": {
+			result = keyboard_check(vk_up);
+			break;
+		}
+		case "Sanity Down": {
+			result = keyboard_check(vk_down);
+			break;
+		}
+		case "Swap Dimension": {
+			result = keyboard_check_pressed(vk_space);
+			break;
+		}
 	}
 }
 return result;
