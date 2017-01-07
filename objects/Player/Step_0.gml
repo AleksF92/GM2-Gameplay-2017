@@ -23,7 +23,8 @@ if (input("Swap Dimension")) {
 }
 var dirX = input("Move Right") - input("Move Left");
 var dirY = input("Move Down") - input("Move Up");
-dir = sign(window_mouse_get_x() - (room_width / 2));
+var newDir = sign(window_mouse_get_x() - (room_width / 2));
+if (newDir != 0) { dir = newDir; }
 
 if (((dirX != 0 || dirY != 0) && !body) || body && image_speed == 0) {
 	//Update speed
@@ -37,19 +38,19 @@ if (((dirX != 0 || dirY != 0) && !body) || body && image_speed == 0) {
 
 	//Check if new tile
 	canWalk = true;
-	if (curTile != tile) {
-		if (!curTile || curTile.solid) {
-			//Not walkable tile
-			canWalk = false;
-		}
-		else {
+	if (curTile && curTile != tile) {
+		var dnaMatch1 = dna && curTile.object_index == dna.dna;
+		var dnaMatch2 = dnaLast && curTile.object_index == dnaLast.dna;
+		var dnaOk = curTile.solid && (dnaMatch1 || dnaMatch2);
+		if (dnaOk || !curTile.solid) {
 			//New walkable tile
+			canWalk = true;
 			if (tile) { tile.inside = false; }
 			if (curTile) { curTile.inside = true; }
 			tile = curTile;
 		}
 	}
-	if (canWalk) {
+	if (canWalk && curTile.inside) {
 		//Apply Movement
 		x += dirX * speedX;
 		y += dirY * speedY;

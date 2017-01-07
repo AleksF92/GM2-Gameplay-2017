@@ -44,6 +44,10 @@ else {
 			result = keyboard_check_pressed(vk_space);
 			break;
 		}
+		case "Attack": {
+			result = mouse_check_button(mb_left);
+			break;
+		}
 	}
 }
 return result;

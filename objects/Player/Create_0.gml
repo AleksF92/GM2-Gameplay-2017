@@ -28,3 +28,6 @@ sanityMax = 100;
 sanity = sanityMax;
 sanityRegen = 0.05;
 body = noone;
+
+dna = noone;
+dnaLast = noone;
