@@ -1,7 +1,7 @@
 {
     "id": "af48f75b-ce44-4911-8291-bf648fd32a1c",
     "modelName": "GMSprite",
-    "mvc": "1.0",
+    "mvc": "1.11",
     "name": "spr_UI_Sanity_BrainDead",
     "For3D": false,
     "HTile": false,

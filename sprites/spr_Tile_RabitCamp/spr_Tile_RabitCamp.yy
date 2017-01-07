@@ -1,7 +1,7 @@
 {
     "id": "3d1d2e7b-809d-4987-b9c5-6060ffc28c26",
     "modelName": "GMSprite",
-    "mvc": "1.0",
+    "mvc": "1.11",
     "name": "spr_Tile_RabitCamp",
     "For3D": false,
     "HTile": false,

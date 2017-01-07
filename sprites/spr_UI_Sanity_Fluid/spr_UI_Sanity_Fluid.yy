@@ -1,7 +1,7 @@
 {
     "id": "3577c2de-724c-415b-9c57-af4adf71f059",
     "modelName": "GMSprite",
-    "mvc": "1.0",
+    "mvc": "1.11",
     "name": "spr_UI_Sanity_Fluid",
     "For3D": false,
     "HTile": false,
